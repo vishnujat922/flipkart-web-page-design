@@ -52,9 +52,12 @@
                 background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inharit;
                 */
             }
-            @media (min-width: 1199px){
+            .V_pluss{
+                color:#E8D919 !important;
+            }
+            @media (min-width: 1400px){
                 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-                    max-width: 948px;
+                    max-width: 1248px;
                 }
             }
         </style>
@@ -62,21 +65,20 @@
     <body>
         <div class="container-fluid v_tbdr"></div>
         <header class="v_tbdr">
-            <div class="v_header_top v_tbdr position-fixed w-100 top-0 start-0">
+            <div class="v_header_top v_tbdr position-fixed w-100 top-0 start-0">     
                 <div class="container h-100 v_tbdr">
                     <div class="row h-100">
-                        <div class="col-2 v_tbdr h-100 p-1">
+                        <div class="col-1 v_tbdr h-100 p-1">
                             <div class="d-grid">
-                                <a href="#" class="d-grid">
-                                    <a href="#" class="text-white bg-danger">
-                                        <img src="./img/slider/flipkart.png" class="img-fluid"/>
-                                    </a>
+                                <a href="#" class="text-white">
+                                    <img src="./img/slider/flipkart.png " class="img-fluid "/>
                                 </a>
-                                <a href="#" class="text-white fs-6 fst-italic v_plus" style="font-size: 0.7em !important;">Explore Plus</a>
+                                <a href="#plus" class="text-white  fs-6 fst-italic  v_plus" style="text-decoration: none; font-size: 0.7em !important;">Explore<p class=" d-inline styled-none V_pluss">Plus</p>
+                                </a>
                             </div>
                         </div>
-                        <div class="col-6 v_tbdr h-100">b</div>
-                        <div class="col-4 v_tbdr h-100">c</div>    
+                        <div class="col-6 v_tbdr h-100"></div>
+                        <div class="col-5 v_tbdr h-100">c</div>    
                     </div>
                 </div>                    
              </div>
@@ -88,17 +90,19 @@
                         <div class="collapse navbar-collapse h-100" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 h-100">
                                 <li class="nav-item me-4">
-                                    <a class="nav-link active bg-danger h-100" aria-current="page" href="#"><img class="img-fluid" width="60" src="./img/carousel/header bottom/8.webp"><br>Top Offers</a>
+                                    <a class="nav-link active bg-danger h-100" aria-current="page" href="#">
+                                        <img class="img-fluid" width="60" src="./img/carousel/header bottom/8.webp">Top Offers
+                                    </a>
                                 </li>
                                 <li class="nav-item me-4">
-                                    <a class="nav-link bg-danger h-100" href="#"><img class="img-floid" width="60" src="./img/carousel/header bottom/9.webp"><br>Grocery</a>
+                                    <a class="nav-link bg-danger h-100" href="#"><img class="img-fluid" width="60" src="./img/carousel/header bottom/9.webp"><br>Grocery</a>
                                 </li>
                                 <li class="nav-item me-4">
-                                    <a class="nav-link bg-danger h-100" href="#"><img class="img-floid" width="60" src="./img/carousel/header bottom/6.webp"><br>Mobiles</a>
+                                    <a class="nav-link bg-danger h-100" href="#"><img class="img-fluid" width="60" src="./img/carousel/header bottom/6.webp"><br>Mobiles</a>
                                 </li>
                                     <li class="nav-item dropdown me-4">
                                         <a class="nav-link dropdown-toggle bg-danger h-100" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <img class="img-floid" width="60" src="./img/carousel/header bottom/3.webp"><br>Home
+                                            <img class="img-fluid" width="60" src="./img/carousel/header bottom/3.webp"><br>Home
                                         </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Action</a></li>
@@ -108,7 +112,7 @@
                                 </ul>
                                      <li class="nav-item dropdown me-4">
                                         <a class="nav-link dropdown-toggle bg-danger h-100" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <img class="img-floid" width="60" src="./img/carousel/header bottom/1.webp"><br>Electronics
+                                            <img class="img-fluid" width="60" src="./img/carousel/header bottom/1.webp"><br>Electronics
                                         </a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -116,9 +120,9 @@
                                         <li><hr class="dropdown-divider"></li>
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
-                                        <li class="nav-item dropdown me-4">
+                                        <li class="nav-item me-4">
                                             <a class="nav-link dropdown-toggle bg-danger h-100" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                <img class="img-floid" width="60" src="./img/carousel/header bottom/2.webp"><br>Fashions
+                                                <img class="img-fluid" width="60" src="./img/carousel/header bottom/2.webp"><br>Fashions
                                             </a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -127,14 +131,18 @@
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                     <li class="nav-item me-4">
-                                        <a class="nav-link bg-danger h-100" href="#"><img class="img-floid" width="60" src="./img/carousel/header bottom/10.webp"><br>Appliances</a>
+                                        <a class="nav-link bg-danger h-100" href="#">
+                                            <img class="img-fluid" width="60" src="./img/carousel/header bottom/10.webp"><br>Appliances
+                                        </a>
                                     </li>
                                     <li class="nav-item me-4">
-                                        <a class="nav-link bg-danger h-100" href="#"><img class="img-floid" width="60" src="./img/carousel/header bottom/4.webp"><br>Travel</a>
+                                        <a class="nav-link bg-danger h-100" href="#">
+                                            <img class="img-fluid" width="60" src="./img/carousel/header bottom/4.webp"><br>Travel
+                                        </a>
                                     </li>
                                     <li class="nav-item dropdown me-4">
                                         <a class="nav-link dropdown-toggle bg-danger h-100" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <img class="img-floid" width="60" src="./img/carousel/header bottom/7.webp"><br>Beauty, Toys & More
+                                            <img class="img-fluid" width="60" src="./img/carousel/header bottom/7.webp"><br>Beauty, Toys & More
                                         </a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -143,7 +151,9 @@
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                     <li class="nav-item me-4">
-                                        <a class="nav-link bg-danger h-100" href="#"><img class="img-floid" width="60" src="./img/carousel/header bottom/5.webp"><br>2-Wheelers</a>
+                                        <a class="nav-link bg-danger h-100 text-bottom-0" href="#">
+                                            <img class="img-fluid" width="60" src="./img/carousel/header bottom/5.webp">2-Wheelers
+                                        </a>
                                     </li>
                                 </ul>
                           </div>
