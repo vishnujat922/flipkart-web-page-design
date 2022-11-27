@@ -69,7 +69,7 @@
                 background:#f4f8ff;
             }
             .v_submenu{
-                height: 390px; 
+                height: 395px; 
                 width: 240px;
                 left:-80px;
                 top:57px;
@@ -84,7 +84,7 @@
                 top:-12px;
                 right:110px;
             }
-            ul.v_menu > li:hover  ul.V_submenu{
+            ul.v_menu > li:hover ul.v_submenu{
                 display: block !important;
             }
             ul.v_submenu > li:hover{
@@ -161,15 +161,24 @@
                             </form>
                         </div>
                         <div class="col-5 v_tbdr h-100">
-                            <ul class="nav v_menu h-100 ">
-                                <li class="nav-item h-100 pt-3 position-relative" style="cursor: pointer;">
-                                    <a class="nav-link bg-white mb-5 h-75 ps-3  active rounded-1 text-primary v_login" aria-current="page" href="#">Login</a>
-                                    <ul class="nav flex-column v_submenu bg-white  shadow-sm position-absolute ">
-                                        <div class="triangle-up"></div>
-                                        <li class="nav-item">
-                                            <a href="#" class="btn btn-link text-decoration-none">New Customer?</a>
-                                            <a href="#" class="btn btn-link text-decoration-none "> Signup</a>
-                                        </li>
+                            <ul class="nav v_menu h-100">
+                                <li class="nav-item h-100 position-relative" style="cursor:pointer;">
+                                  <a class="nav-link pt-1 pb-2 ps-3 h-50 rounded-0 mt-3  active bg-white text-primary v_login" aria-current="page" href="#">Login</a>
+                                  <ul class="nav flex-column v_submenu bg-white shadow-sm position-absolute d-none">
+                                    <li class="nav-item">
+                                        <div class="arrow-up"></div>
+                                        <a href="#" class="btn btn-link text-decoration-none text-black">New Customer?</a>
+                                        <a href="#" class="btn btn-link text-decoration-none"> Signup</a>
+                                    </li class="nav-item border-bottom">
+                                    <li  class="nav-item border-bottom">
+                                        <a href="#" class="btn ps-3 w-100 text-start text-decoration-none"><i class="fa-solid fa-user"></i> My Profile</a>
+                                        <a href="#" class="btn ps-3 w-100 text-start text-decoration-none"><i class="fa-solid fa-user"></i>Flipkart plus Zone</a>
+                                        <a href="#" class="btn ps-3 w-100 text-start text-decoration-none"><i class="fa-solid fa-user"></i>Orders</a>
+                                        <a href="#" class="btn ps-3 w-100 text-start text-decoration-none"><i class="fa-solid fa-heart"></i>Wishlist</a>
+                                        <a href="#" class="btn ps-3 w-100 text-start text-decoration-none"><i class="fa-duotone fa-treasure-chest"></i>Rewords</a>
+                                        <a href="#" class="btn ps-3 w-100 text-start text-decoration-none"><i class="fa-duotone fa-gift-card"></i>Gift Cards</a>
+                                    </li>
+                                </ul>    
                                 </li>
                                 <li class="nav-item h-100">
                                    <a class="nav-link pt-3 h-100 text-white" href="#">Become a Seller</a>
@@ -178,7 +187,7 @@
                                     <a class="nav-link pt-3 h-100 text-white" href="#">More</a>
                                 </li>
                                 <li class="nav-item h-100">
-                                  <a class="nav-link pt-3 h-100 text-white"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+                                  <a class="nav-link pt-3 h-100 text-white"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
                                 </li>
                               </ul>
                         </div>    
